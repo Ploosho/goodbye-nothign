@@ -25,7 +25,7 @@ export function About() {
         cluedLetters={[
           { clue: Clue.Correct, letter: "p" },
           { clue: Clue.Absent, letter: "o" },
-          { clue: Clue.Ansent, letter: "d" },
+          { clue: Clue.Absent, letter: "d" },
           { clue: Clue.Absent, letter: "g" },
           { clue: Clue.Absent, letter: "y" },
         ]}
