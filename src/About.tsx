@@ -39,12 +39,6 @@ export function About() {
         .<br />
         <strong>(There may still be a second R in the word.)</strong>
       </p>
-      <p>
-        <b className={"yellow-bg"}>D</b> occurs <em>elsewhere</em> in the target
-        word.
-        <br />
-        <strong>(Perhaps more than once. 🤔)</strong>
-      </p>
       <hr />
       <p>
         Let's try some different letters in our next guess:
