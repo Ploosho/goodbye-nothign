@@ -96,9 +96,9 @@ table.Game-rows > tbody {
 }
 
 .Game-keyboard-button {
-  margin: 2px;
+  margin: 3px;
   background-color: #cdcdcd;
-  padding: 2px;
+  padding: 3px;
   text-transform: capitalize;
   border-radius: 4px;
   min-height: 40px;
