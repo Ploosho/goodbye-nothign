@@ -21,20 +21,21 @@ export function About() {
       <hr />
       <Row
         rowState={RowState.LockedIn}
-        wordLength={4}
+        wordLength={5}
         cluedLetters={[
-          { clue: Clue.Absent, letter: "w" },
+          { clue: Clue.Correct, letter: "p" },
           { clue: Clue.Absent, letter: "o" },
-          { clue: Clue.Correct, letter: "r" },
-          { clue: Clue.Elsewhere, letter: "d" },
+          { clue: Clue.Ansent, letter: "d" },
+          { clue: Clue.Absent, letter: "g" },
+          { clue: Clue.Absent, letter: "y" },
         ]}
       />
       <p>
-        <b>W</b> and <b>O</b> aren't in the target word at all.
+        <b>O</b> <b>D</b> <b>G</b> and <b>Y</b> aren't in the target word at all.
       </p>
       <p>
-        <b className={"green-bg"}>R</b> is correct! The third letter is{" "}
-        <b className={"green-bg"}>R</b>
+        <b className={"green-bg"}>P</b> is correct! The first letter is{" "}
+        <b className={"green-bg"}>P</b>
         .<br />
         <strong>(There may still be a second R in the word.)</strong>
       </p>
@@ -46,40 +47,38 @@ export function About() {
       </p>
       <hr />
       <p>
-        Let's move the <b>D</b> in our next guess:
+        Let's try some different letters in our next guess:
       </p>
       <Row
         rowState={RowState.LockedIn}
-        wordLength={4}
+        wordLength={5}
         cluedLetters={[
-          { clue: Clue.Correct, letter: "d" },
-          { clue: Clue.Correct, letter: "a" },
-          { clue: Clue.Correct, letter: "r" },
-          { clue: Clue.Absent, letter: "k" },
+          { clue: Clue.Absent, letter: "f" },
+          { clue: Clue.Correct, letter: "l" },
+          { clue: Clue.Absent, letter: "a" },
+          { clue: Clue.Correct, letter: "s" },
+          { clue: Clue.Correct, letter: "h" },
         ]}
         annotation={"So close!"}
       />
       <Row
         rowState={RowState.LockedIn}
-        wordLength={4}
+        wordLength={5}
         cluedLetters={[
-          { clue: Clue.Correct, letter: "d" },
-          { clue: Clue.Correct, letter: "a" },
-          { clue: Clue.Correct, letter: "r" },
-          { clue: Clue.Correct, letter: "t" },
+          { clue: Clue.Correct, letter: "p" },
+          { clue: Clue.Correct, letter: "l" },
+          { clue: Clue.Correct, letter: "u" },
+          { clue: Clue.Correct, letter: "s" },
+          { clue: Clue.Correct, letter: "h" },
         ]}
         annotation={"Got it!"}
       />
       <p>
         Report issues{" "}
-        <a href="https://github.com/lynn/hello-wordl/issues">here</a>, or tweet{" "}
-        <a href="https://twitter.com/chordbug">@chordbug</a>.
+        <a href="https://github.com/Ploosho/goodbye-nothign/issues">here</a>
       </p>
       <p>
-        This game will be free and ad-free forever,
-        <br />
-        but you can <a href="https://ko-fi.com/chordbug">buy me a coffee</a> if
-        you'd like.
+        This game will be free and ad-free forever.
       </p>
     </div>
   );
